@@ -3,13 +3,15 @@ import React from 'react';
 import Header from '../components/Header';
 import About from '../components/About';
 
+import '../styles/Home.css';
+
 
 function Home() {
     return (
-        <div className="flex-row">
+        <div className="home">
             <Header/>
             </div>,
-        <div className="container">
+        <div className="homeContainer">
             <About/>
             </div>
     );

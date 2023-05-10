@@ -17,6 +17,9 @@ a portfolio made with React, showcasing projects I've worked on thus far in UCLA
 MIT License
 
 ## Acknowledgements & Resources
+[Color Palette](https://colorhunt.co/palette/f7f7f7eeeeee393e46929aab)
+[Coolors Color Palette](https://coolors.co/palette/aaaaaa-bbbbbb-cccccc-dddddd-eeeeee)
+[Linebreaks with Text rendering in JSX files](https://dev.to/cassidoo/make-line-breaks-work-when-you-render-text-in-a-react-or-vue-component-4m0n)
 
 ## Deployment
 []()

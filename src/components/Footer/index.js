@@ -3,7 +3,10 @@ import React from 'react';
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <div>
+      Footer
+       {/* Github here, linkedin and, other optional links */}
+    </div>
   )
 }
 

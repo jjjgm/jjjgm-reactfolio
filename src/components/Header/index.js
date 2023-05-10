@@ -10,21 +10,24 @@ function Header() {
                 {/* may add svg generated monogram here from a previous proj. TBD */}
                 {/* <img src={jjjgmMono}/> */}
             </div>
-            <div className="flex-row">
-            <ul>
+            <div className="nav">
+            
                 <li>
                     <Link to="/">Home</Link>
                 </li>
+
                 <li>
                     <Link to="/about">About</Link>
                 </li>
+
                 <li>
                     <Link to="/portfolio">Portfolio</Link>
                 </li>
+                
                 <li>
                     <Link to="/contact">Contact</Link>
                 </li>
-                </ul>
+                
                 {/* resume is currently a WIP link... */}
                 {/* <Link to="/resume">Resume</Link> */}
             </div>

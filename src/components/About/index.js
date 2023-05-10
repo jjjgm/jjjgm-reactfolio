@@ -5,9 +5,12 @@ import React from 'react'
 function About() {
     return (
 
-        <div>About</div>
+        <div className="nameDisplay">
+            <h2>Jennifer
+            </h2>
+</div>
 
-    )
+    );
 }
 
 export default About;

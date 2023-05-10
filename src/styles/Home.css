@@ -1,0 +1,25 @@
+.home {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav {
+    list-style: none;
+    color: #393E46;
+    font-size: 1.25rem;
+    padding: 2px;
+}
+
+.nameDisplay {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
