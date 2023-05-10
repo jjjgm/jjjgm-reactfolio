@@ -17,8 +17,18 @@
     padding: 2px;
 }
 
-.nameDisplay {
+.aboutContainer {
     width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.nameDisplay {
+    color:#393E46;
+    font-size: 24px;
+}
+
+.footer {
     display: flex;
     justify-content: center;
 }
