@@ -10,6 +10,7 @@ function Header() {
                 {/* may add svg generated monogram here from a previous proj. TBD */}
                 {/* <img src={jjjgmMono}/> */}
             </div>
+            
             <div className="nav">
             
                 <li>

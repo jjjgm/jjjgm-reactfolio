@@ -9,11 +9,12 @@ A portfolio that will be used to hold projects, a contact form, a resume, and li
 
 ## Installation
 1. node v 
-        (already installed, but in best practice always ensure it is installed-- v lets you know what version is installed.)
+        [if already installed will show current version]
 2. npx install react-create-app . 
-        (given that the repository was created beforehand, otherwise,  'npx install react-create-app-<app-name-here>)
-3. (this was not in the acceptance criteria, but added additional functionality: npm install react-router-dom)
-    this adds router functionality to the navbar links
+        *given that the repository was created beforehand [otherwise,  'npx install react-create-app-<app-name-here>]
+3.  npm install react-router-dom
+        * this was an extra addition. it was not a requirement Acceptance Criteria's MVP
+4. Semantic UI
 
 ## License
 

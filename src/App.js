@@ -1,5 +1,8 @@
 import React from 'react';
+
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+import 'semantic-ui-css/semantic.min.css'
 
 import Header from './components/Header'
 import Home from './pages/Home'

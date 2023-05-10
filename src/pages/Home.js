@@ -14,6 +14,7 @@ function Home() {
         <div className="homeContainer">
             <About/>
             </div>
+            
     );
 }
 
