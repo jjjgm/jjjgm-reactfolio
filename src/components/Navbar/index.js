@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 // import jjjgmMono from '../assets'
 
@@ -10,7 +11,11 @@ function Navbar() {
                 {/* <img src={jjjgmMonon}/> */}
             </div>
             <div className='linkSide'>
-                <
+                <Link to="/">Home</Link>
+                <Link to="/about">About</Link>
+                <Link to="contact">Contact</Link>
+                {/* resume is currently a WIP link... */}
+                {/* <Link to="/resume">Resume</Link> */}
             </div>
         </div>
     )
