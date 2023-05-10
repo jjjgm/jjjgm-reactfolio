@@ -1,11 +1,18 @@
 import React from 'react';
 
-import About from '../components/About'
+import Header from '../components/Header';
+import About from '../components/About';
+
 
 function Home() {
     return (
-        <div>Home</div>
-    )
+        <div className="flex-row">
+            <Header/>
+            </div>,
+        <div className="container">
+            <About/>
+            </div>
+    );
 }
 
 export default Home;
