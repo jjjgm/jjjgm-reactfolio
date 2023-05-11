@@ -1,7 +1,5 @@
 import React from 'react';
 
-
-
 import landingImage from '/Users/jennifer/bootcamp/homework/jjjgm-reactfolio/src/assets/casestudy.JPG';
 
 import '../styles/Home.css';
@@ -27,7 +25,7 @@ function Home() {
             <div className="card">
                 <img src={landingImage} alt="My Image" />
                 </div>
-                
+
             </div>
     );
 }

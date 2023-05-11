@@ -2,6 +2,8 @@ import React from 'react';
 
 import {  Image, Item } from 'semantic-ui-react'
 
+import logo from '/Users/jennifer/bootcamp/homework/jjjgm-reactfolio/src/assets/generated logo.svg.png'
+
 const paragraph = <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
 
 function Portfolio() {
@@ -46,12 +48,12 @@ function Portfolio() {
     </Item>
 
     <Item>
-      <Item.Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
+      <Item.Image src={logo} />
 
       <Item.Content>
-        <Item.Header as='a'>Project Three</Item.Header>
+        <Item.Header as='a'><a href="https://github.com/jjjgm/logo-lookslike-svg">SVG Logo Generator</a></Item.Header>
         <Item.Meta>
-          <span className='cinema'>Project Description</span>
+          <span className='cinema'>A CLI prompt based project that generates an SVG monogram logo.</span>
         </Item.Meta>
         <Item.Description>{paragraph}</Item.Description>
       </Item.Content>
