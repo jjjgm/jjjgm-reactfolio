@@ -12,10 +12,10 @@ function Portfolio() {
 
 <Item.Group divided>
     <Item>
-      <Item.Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
+      <Item.Image src='https://github.com/autohome/jenhua-joerdo/blob/main/assets/%20images/deployedhomepage.png' />
 
       <Item.Content>
-        <Item.Header as='a'>StylistAi</Item.Header>
+        <Item.Header as='a'><a href="https://github.com/autohome/jenhua-joerdo">"Back-End for E-Commerce"</a></Item.Header>
         <Item.Meta>
           <span className='cinema'>Group Project One: A Web Application that fetches data from two API keys.</span>
         </Item.Meta>
