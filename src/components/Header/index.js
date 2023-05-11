@@ -24,10 +24,15 @@ function Header() {
                 <li>
                     <Link to="/portfolio" style={{ textDecoration: 'none'}}>Portfolio</Link>
                 </li>
+
+                <li>
+                    <Link to="/resume" style={{ textDecoration: 'none'}}>Resume</Link>
+                </li>
                 
                 <li>
                     <Link to="/contact" style={{ textDecoration: 'none'}}>Contact</Link>
                 </li>
+
                 
                 {/* resume is currently a WIP link... */}
                 {/* <Link to="/resume">Resume</Link> */}
