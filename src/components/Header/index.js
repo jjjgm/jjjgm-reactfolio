@@ -14,19 +14,19 @@ function Header() {
             <div className="nav">
             
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link to="/" style={{ textDecoration: 'none'}}>Home</Link>
                 </li>
 
                 <li>
-                    <Link to="/about">About</Link>
+                    <Link to="/about" style={{ textDecoration: 'none'}}>About</Link>
                 </li>
 
                 <li>
-                    <Link to="/portfolio">Portfolio</Link>
+                    <Link to="/portfolio" style={{ textDecoration: 'none'}}>Portfolio</Link>
                 </li>
                 
                 <li>
-                    <Link to="/contact">Contact</Link>
+                    <Link to="/contact" style={{ textDecoration: 'none'}}>Contact</Link>
                 </li>
                 
                 {/* resume is currently a WIP link... */}
