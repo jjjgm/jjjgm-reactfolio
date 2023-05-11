@@ -41,7 +41,7 @@ function Portfolio() {
       <Item.Content>
         <Item.Header as='a'><a href="https://github.com/jjjgm/gg-get-icecream">"Thank You For Being a Friend"</a></Item.Header>
         <Item.Meta>
-          <span className='cinema'>A web based social network application for pet friends to connect!</span>
+          <span className='cinema'>Group Project Two : A web based social network application for pet friends to connect!</span>
         </Item.Meta>
         <Item.Description>{paragraph}</Item.Description>
       </Item.Content>
@@ -64,9 +64,9 @@ function Portfolio() {
       <Item.Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
 
       <Item.Content>
-        <Item.Header as='a'>Project Four</Item.Header>
+        <Item.Header as='a'><a href="https://github.com/jjjgm/logo-lookslike-svg">CLI READMe.md file generator</a></Item.Header>
         <Item.Meta>
-          <span className='cinema'>Project Description</span>
+          <span className='cinema'>A CLI based file generator with prompts that will generate a completed README</span>
         </Item.Meta>
         <Item.Description>{paragraph}</Item.Description>
       </Item.Content>
@@ -76,9 +76,9 @@ function Portfolio() {
       <Item.Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
 
       <Item.Content>
-        <Item.Header as='a'>Project Five</Item.Header>
+        <Item.Header as='a'><a href="https://github.com/jjjgm/oh-another-network">Social Netowork API</a></Item.Header>
         <Item.Meta>
-          <span className='cinema'>Project Description</span>
+          <span className='cinema'>A mongoDB API that has functionality to add/delete: users, thoughts, and reactions.</span>
         </Item.Meta>
         <Item.Description>{paragraph}</Item.Description>
       </Item.Content>
