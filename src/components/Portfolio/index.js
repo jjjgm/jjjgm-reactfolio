@@ -8,16 +8,14 @@ function Portfolio() {
   return (
     <div className="portfolio">
 
-
-
 <Item.Group divided>
     <Item>
       <Item.Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
 
       <Item.Content>
-        <Item.Header as='a'>Project One</Item.Header>
+        <Item.Header as='a'>StylistAi</Item.Header>
         <Item.Meta>
-          <span className='cinema'>Project Description</span>
+          <span className='cinema'>Group Project One: A Web Application that fetches data from two API keys.</span>
         </Item.Meta>
         <Item.Description>{paragraph}</Item.Description>
       </Item.Content>
@@ -27,9 +25,21 @@ function Portfolio() {
       <Item.Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
 
       <Item.Content>
-        <Item.Header as='a'>Project Two</Item.Header>
+        <Item.Header as='a'><a href="https://github.com/jjjgm/the-back-of-the-shop">"Back End E-Commerce"</a></Item.Header>
         <Item.Meta>
-          <span className='cinema'>Project Description</span>
+          <span className='cinema'>A serverside application that shows table/ model relationships in mySQL.</span>
+        </Item.Meta>
+        <Item.Description>{paragraph}</Item.Description>
+      </Item.Content>
+    </Item>
+
+    <Item>
+      <Item.Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
+
+      <Item.Content>
+        <Item.Header as='a'><a href="https://github.com/jjjgm/gg-get-icecream">"Thank You For Being a Friend"</a></Item.Header>
+        <Item.Meta>
+          <span className='cinema'>A web based social network application for pet friends to connect!</span>
         </Item.Meta>
         <Item.Description>{paragraph}</Item.Description>
       </Item.Content>
@@ -72,17 +82,7 @@ function Portfolio() {
       </Item.Content>
     </Item>
 
-    <Item>
-      <Item.Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
-
-      <Item.Content>
-        <Item.Header as='a'>Project Six</Item.Header>
-        <Item.Meta>
-          <span className='cinema'>Project Description</span>
-        </Item.Meta>
-        <Item.Description>{paragraph}</Item.Description>
-      </Item.Content>
-    </Item>
+   
   </Item.Group>
 
 
