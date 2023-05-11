@@ -27,23 +27,21 @@ function Portfolio() {
       <Item.Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
 
       <Item.Content>
-        <Item.Header as='a'><a href="https://github.com/jjjgm/the-back-of-the-shop">"Back End E-Commerce"</a></Item.Header>
+        <Item.Header as='a'><a href="https://github.com/jjjgm/the-back-of-the-shop">"Back-End for E-Commerce"</a></Item.Header>
         <Item.Meta>
           <span className='cinema'>A serverside application that shows table/ model relationships in mySQL.</span>
         </Item.Meta>
-        <Item.Description>{paragraph}</Item.Description>
       </Item.Content>
     </Item>
 
     <Item>
-      <Item.Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
+      <Item.Image src='https://user-images.githubusercontent.com/126362926/234385988-827cd7e3-a6d6-4bb3-bf2d-3b24aaf9e8a2.png' />
 
       <Item.Content>
         <Item.Header as='a'><a href="https://github.com/jjjgm/gg-get-icecream">"Thank You For Being a Friend"</a></Item.Header>
         <Item.Meta>
           <span className='cinema'>Group Project Two : A web based social network application for pet friends to connect!</span>
         </Item.Meta>
-        <Item.Description>{paragraph}</Item.Description>
       </Item.Content>
     </Item>
 
@@ -53,9 +51,8 @@ function Portfolio() {
       <Item.Content>
         <Item.Header as='a'><a href="https://github.com/jjjgm/logo-lookslike-svg">SVG Logo Generator</a></Item.Header>
         <Item.Meta>
-          <span className='cinema'>A CLI prompt based project that generates an SVG monogram logo.</span>
+          <span className='cinema'>A CLI based prompt project that generates an SVG monogram logo.</span>
         </Item.Meta>
-        <Item.Description>{paragraph}</Item.Description>
       </Item.Content>
     </Item>
 
@@ -64,27 +61,23 @@ function Portfolio() {
       <Item.Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
 
       <Item.Content>
-        <Item.Header as='a'><a href="https://github.com/jjjgm/logo-lookslike-svg">CLI READMe.md file generator</a></Item.Header>
+        <Item.Header as='a'><a href="https://github.com/jjjgm/logo-lookslike-svg">README.md file generator</a></Item.Header>
         <Item.Meta>
           <span className='cinema'>A CLI based file generator with prompts that will generate a completed README</span>
         </Item.Meta>
-        <Item.Description>{paragraph}</Item.Description>
       </Item.Content>
     </Item>
 
     <Item>
-      <Item.Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
+      <Item.Image src='https://github.com/jjjgm/oh-another-network/raw/main/assets/Screenshot%202023-05-09%20at%202.17.48%20AM.png' />
 
       <Item.Content>
-        <Item.Header as='a'><a href="https://github.com/jjjgm/oh-another-network">Social Netowork API</a></Item.Header>
+        <Item.Header as='a'><a href="https://github.com/jjjgm/oh-another-network">Social Network API</a></Item.Header>
         <Item.Meta>
-          <span className='cinema'>A mongoDB API that has functionality to add/delete: users, thoughts, and reactions.</span>
+          <span className='cinema'>An API that has functionality to add/delete: users, thoughts, and reactions.</span>
         </Item.Meta>
-        <Item.Description>{paragraph}</Item.Description>
       </Item.Content>
     </Item>
-
-   
   </Item.Group>
 
 
