@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Item } from 'semantic-ui-react'
 
-import logo from '/Users/jennifer/bootcamp/homework/jjjgm-reactfolio/src/assets/generated logo.svg.png'
+import logo from '../../assets/generated logo.svg.png'
 
 
 function Portfolio() {

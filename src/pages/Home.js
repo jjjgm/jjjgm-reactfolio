@@ -2,7 +2,7 @@ import React from 'react';
 
 import '../styles/Home.css';
 
-import landingImage from '/Users/jennifer/bootcamp/homework/jjjgm-reactfolio/src/assets/casestudy.JPG';
+import landingImage from '../assets/casestudy.JPG';
 
 
 

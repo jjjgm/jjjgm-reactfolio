@@ -2,7 +2,7 @@ import React from 'react';
 
 import '../../styles/About.css';
 
-import aboutMe from '/Users/jennifer/bootcamp/homework/jjjgm-reactfolio/src/assets/mthollywood.jpg';
+import aboutMe from '../../assets/mthollywood.jpg';
 
 function About() {
     return (
