@@ -22,9 +22,9 @@ function Home() {
                 I'm a Full Stack Developer in Los Angeles
             </h3>
 
-            <div class="homeCard">
-            <img src={landingImage} alt="My Image" />
-    </div>
+
+            <img className='myImage' src={landingImage} alt="My Image" />
+
             </div>
 
 

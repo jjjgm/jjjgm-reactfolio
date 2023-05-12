@@ -3,7 +3,10 @@ import React from 'react';
 import { Item } from 'semantic-ui-react'
 
 import logo from '../../assets/generated logo.svg.png'
+import ecommerce from '../../assets/ecommerce.png'
+import readme from '../../assets/readmegenerator.png'
 
+import '../../styles/Portfolio.css'
 
 function Portfolio() {
   return (
@@ -14,7 +17,7 @@ function Portfolio() {
       <Item.Image src='https://github.com/autohome/jenhua-joerdo/blob/main/assets/%20images/deployedhomepage.png?raw=true' />
 
       <Item.Content>
-        <Item.Header as='a'><a href="https://github.com/autohome/jenhua-joerdo">"Stylist.Ai"</a></Item.Header>
+        <Item.Header as='a'><a  href="https://github.com/autohome/jenhua-joerdo">"Stylist.Ai"</a></Item.Header>
         <Item.Meta>
           <span className='cinema'>Group Project One: A Web Application that fetches data from two API keys.</span>
         </Item.Meta>
@@ -22,7 +25,7 @@ function Portfolio() {
     </Item>
 
     <Item>
-      <Item.Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
+      <Item.Image src={ecommerce} />
 
       <Item.Content>
         <Item.Header as='a'><a href="https://github.com/jjjgm/the-back-of-the-shop">Back-End for E-Commerce</a></Item.Header>
@@ -56,10 +59,10 @@ function Portfolio() {
 
 
   <Item>
-      <Item.Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
+      <Item.Image src={readme} />
 
       <Item.Content>
-        <Item.Header as='a'><a href="https://github.com/jjjgm/logo-lookslike-svg">README.md file generator</a></Item.Header>
+        <Item.Header as='a'><a  href="https://github.com/jjjgm/logo-lookslike-svg">README.md file generator</a></Item.Header>
         <Item.Meta>
           <span className='cinema'>A CLI based file generator with prompts that will generate a completed README</span>
         </Item.Meta>
@@ -78,10 +81,8 @@ function Portfolio() {
     </Item>
   </Item.Group>
 
-
-
     </div>
-  )
+  );
 }
 
 export default Portfolio;

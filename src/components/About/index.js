@@ -15,7 +15,7 @@ function About() {
                 <p> I'm passionate about continous self-improvement,  effective communication styles, and learning more about innovations/ advancements in numerous fields that artificial intelligence will bring.
                 </p>
                 
-                <img src={aboutMe} alt="aboutMe"/>
+                <img className='aboutMe' src={aboutMe} alt="aboutMe"/>
             
         </div>
 

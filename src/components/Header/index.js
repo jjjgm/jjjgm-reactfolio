@@ -1,13 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import '../../styles/Home.css';
 
 // import jjjgmMono from '../assets'
 
 function Header() {
     return (
-        <div className="header">
             
             <div className="nav">
             
@@ -16,26 +14,23 @@ function Header() {
                 </li>
 
                 <li>
-                    <Link to="/about" style={{ textDecoration: 'none'}}>About</Link>
+                    <Link className='link' to="/about" style={{ textDecoration: 'none'}}>About</Link>
                 </li>
 
                 <li>
-                    <Link to="/portfolio" style={{ textDecoration: 'none'}}>Portfolio</Link>
+                    <Link className='link' to="/portfolio" style={{ textDecoration: 'none'}}>Portfolio</Link>
                 </li>
 
                 <li>
-                    <Link to="/resume" style={{ textDecoration: 'none'}}>Resume</Link>
+                    <Link className='link' to="/resume" style={{ textDecoration: 'none'}}>Resume</Link>
                 </li>
                 
                 <li>
-                    <Link to="/contact" style={{ textDecoration: 'none'}}>Contact</Link>
+                    <Link className='link' to="/contact" style={{ textDecoration: 'none'}}>Contact</Link>
                 </li>
 
-                
-                {/* resume is currently a WIP link... */}
-                {/* <Link to="/resume">Resume</Link> */}
             </div>
-        </div>
+        
     )
 }
 

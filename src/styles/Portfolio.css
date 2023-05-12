@@ -1,0 +1,10 @@
+a {
+    justify-content: center;
+    text-decoration: none;
+    color: #595959;
+}
+
+a:hover {
+    color: #CCCCCC;
+}
+

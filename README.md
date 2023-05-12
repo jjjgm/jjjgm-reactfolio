@@ -9,12 +9,16 @@ A portfolio that will be used to hold projects, a contact form, a resume, and li
 
 ## Installation
 1. node v 
-        [if already installed will show current version]
+         [if already installed will show current version]
 2. npx install react-create-app . 
-        *given that the repository was created beforehand [otherwise,  'npx install react-create-app-<app-name-here>]
+                *given that the repository was created beforehand [otherwise,  'npx install react-create-app-<app-name-here>]
 3.  npm install react-router-dom
-        * this was an extra addition. it was not a requirement Acceptance Criteria's MVP
+                * this was an extra addition. it was not a requirement Acceptance Criteria's MVP
 4. Semantic UI
+5. Express.JS
+                to have routes available for deployment
+
+
 
 ## License
 
@@ -34,7 +38,10 @@ MIT License
 
 ## Status
 
+As the program ends, this will serve as a starter portfolio which I will continue to build on. The projects will be changed accordingly as well as adding more dynamic features.
+
 ## Assets/ Images
-![]()
-![]()
-![]()
+![homepage](./src/assets/landingpage.png)
+![aboutmepage](./src/assets/aboutpage.png)
+![contactpage](./src/assets/contact.png)
+![portfoliopage](./src/assets/portfolio.png)

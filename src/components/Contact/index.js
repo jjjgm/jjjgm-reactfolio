@@ -47,17 +47,17 @@ function Contact() {
 
       <h2 className="contact-title">Contact</h2>
 
-    <Form className='form'>
+    <Form className='form' onSubmit={handleSubmit}>
     <Form.Field>
       <label>Name</label>
-      <input placeholder='Name' />
+      <input value={name} onChange={event => setName(event.target.value)} placeholder='Name' />
     </Form.Field>
     <Form.Field>
       <label>Email</label>
-      <input placeholder='Email' />
+      <input value={email} onChange={handleEmailChange} placeholder='Email' />
     </Form.Field>
 
-    <TextArea rows={2} placeholder={`Message`}/>
+    <TextArea value={message} onChange={event => setMessage(event.target.value)} rows={2} placeholder={`Message`}/>
 
     <Button type='submit'>Submit</Button>
   </Form>
