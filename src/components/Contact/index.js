@@ -1,77 +1,74 @@
+
 import { useState } from 'react';
+import { Button, Form, TextArea } from 'semantic-ui-react'
+
 import '../../styles/Contact.css';
 
-
 function Contact() {
-  const [input, setInput] = useState('');
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setInput(values => ({ ...values, [name]: value }));
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+  const [emailError, setEmailError] = useState(false);
+
+  function handleEmailChange(e) {
+    setEmail(e.target.value);
+    if (!isValidEmail(e.target.value)) {
+      setEmailError(true);
+    } else {
+      setEmailError(false);
+    }
   }
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    alert(JSON.stringify(input));
+  function handleSubmit(e) {
+    e.preventDefault();
+    if (name === '' || email === '' || message === '') {
+      alert('Please fill in all required fields.');
+    } else if (emailError) {
+      alert('Please enter a valid email address.');
+    } else {
+      // NEEDS SERVER SIDE TO SEND FORM TO AN EMAIL OR STORE IN DB
+      alert(`Thank you for reahing out ${name}!`);
+      setName('');
+      setEmail('');
+      setMessage('');
+      setEmailError(false);
+    }
   }
 
-  // add a validator for email addresses
-  const validateEmail = (email) => {
-    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return emailPattern.test(email);
+  function isValidEmail(email) {
+    // REGEX FOR EMAIL VALIDATION
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
   }
 
 
   return (
-    <div className="contactMe">
+    <div className="contact">
 
-      <h1>Let's Connect</h1>
+      <h2 className="contact-title">Contact</h2>
 
-      <form className="contactForm" onSubmit={handleSubmit}>
-        <div><label>Your Name:
-          <input
-            type="text"
-            name="contactName"
-            value={input.contactName || ""}
-            onChange={handleChange}
-          />
-        </label>
-        </div>
+    <Form className='form'>
+    <Form.Field>
+      <label>Name</label>
+      <input placeholder='Name' />
+    </Form.Field>
+    <Form.Field>
+      <label>Email</label>
+      <input placeholder='Email' />
+    </Form.Field>
 
+    <TextArea rows={2} placeholder={`Message`}/>
 
-        <div>
-          <label>Your email:
-            <input
-              type="text"
-              name="contactEmail"
-              value={input.contactEmail || ""}
-              onChange={handleChange}
-              className={!validateEmail(input.contactEmail) ? "invalid" : ""}
-            />
-          </label>
-        </div>
-
-        <div>
-          <label>
-            Message:
-            <textarea
-              name="message"
-              value={input.message || ""}
-              onChange={handleChange}
-            />
-          </label>
-        </div>
-
-        <div>
-          <input type="submit" />
-
-        </div>
-      </form>
+    <Button type='submit'>Submit</Button>
+  </Form>
 
     </div>
-
-
   );
 }
 
 export default Contact;
+
+
+
+
+

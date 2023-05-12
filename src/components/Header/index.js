@@ -1,20 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import '../../styles/Home.css';
+
 // import jjjgmMono from '../assets'
 
 function Header() {
     return (
         <div className="header">
-            <div className="monogram">
-                {/* may add svg generated monogram here from a previous proj. TBD */}
-                {/* <img src={jjjgmMono}/> */}
-            </div>
             
             <div className="nav">
             
                 <li>
-                    <Link to="/" style={{ textDecoration: 'none'}}>Home</Link>
+                    <Link className='link' to="/" style={{ textDecoration: 'none'}}>Home</Link>
                 </li>
 
                 <li>

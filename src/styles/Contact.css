@@ -1,7 +1,16 @@
-.contactMe {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
+.contact {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+
+.contact-title {
+    text-align: center;
+}
+
+
+    .form{
+        align-items: center;
+        width: 50%;
+        margin-left: 25%;
+    }

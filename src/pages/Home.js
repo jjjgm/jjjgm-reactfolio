@@ -1,14 +1,14 @@
 import React from 'react';
 
+import '../styles/Home.css';
+
 import landingImage from '/Users/jennifer/bootcamp/homework/jjjgm-reactfolio/src/assets/casestudy.JPG';
 
-import '../styles/Home.css';
 
 
 function Home() {
     return (
         <div className="home">  
-
 
             <h1 className="greeting">
                 Hello!
@@ -22,11 +22,14 @@ function Home() {
                 I'm a Full Stack Developer in Los Angeles
             </h3>
 
-            <div className="card">
-                <img src={landingImage} alt="My Image" />
-                </div>
-
+            <div class="homeCard">
+            <img src={landingImage} alt="My Image" />
+    </div>
             </div>
+
+
+
+            
     );
 }
 

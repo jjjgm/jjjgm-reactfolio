@@ -1,10 +1,9 @@
 import React from 'react';
 
-import {  Image, Item } from 'semantic-ui-react'
+import { Item } from 'semantic-ui-react'
 
 import logo from '/Users/jennifer/bootcamp/homework/jjjgm-reactfolio/src/assets/generated logo.svg.png'
 
-const paragraph = <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
 
 function Portfolio() {
   return (
@@ -12,14 +11,13 @@ function Portfolio() {
 
 <Item.Group divided>
     <Item>
-      <Item.Image src='https://github.com/autohome/jenhua-joerdo/blob/main/assets/%20images/deployedhomepage.png' />
+      <Item.Image src='https://github.com/autohome/jenhua-joerdo/blob/main/assets/%20images/deployedhomepage.png?raw=true' />
 
       <Item.Content>
-        <Item.Header as='a'><a href="https://github.com/autohome/jenhua-joerdo">"Back-End for E-Commerce"</a></Item.Header>
+        <Item.Header as='a'><a href="https://github.com/autohome/jenhua-joerdo">"Stylist.Ai"</a></Item.Header>
         <Item.Meta>
           <span className='cinema'>Group Project One: A Web Application that fetches data from two API keys.</span>
         </Item.Meta>
-        <Item.Description>{paragraph}</Item.Description>
       </Item.Content>
     </Item>
 
@@ -27,7 +25,7 @@ function Portfolio() {
       <Item.Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
 
       <Item.Content>
-        <Item.Header as='a'><a href="https://github.com/jjjgm/the-back-of-the-shop">"Back-End for E-Commerce"</a></Item.Header>
+        <Item.Header as='a'><a href="https://github.com/jjjgm/the-back-of-the-shop">Back-End for E-Commerce</a></Item.Header>
         <Item.Meta>
           <span className='cinema'>A serverside application that shows table/ model relationships in mySQL.</span>
         </Item.Meta>
