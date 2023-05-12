@@ -1,7 +1,7 @@
 {
   "name": "jjjgm-reactfolio",
   "version": "1.0.0",
-  "homepage": "https://jjjgm-reactfolio.herokuapp.com/ && https://jjjgm.github.io/jjjgm-reactfolio/",
+
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -14,7 +14,9 @@
     "react-scripts": "5.0.1",
     "semantic-ui-css": "^2.5.0",
     "semantic-ui-react": "^2.1.4",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "web": "node server.js"
+
   },
   "engines": {
     "node": "18.2.0"
