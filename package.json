@@ -1,8 +1,7 @@
 {
   "name": "jjjgm-reactfolio",
   "version": "1.0.0",
-  "homepage": "https://reactfolio-jgm.herokuapp.com/",
-
+  "homepage": "https://jjgm.github.io/jjjgm-reactfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -25,7 +24,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
