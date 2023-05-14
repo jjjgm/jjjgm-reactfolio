@@ -2,11 +2,11 @@ import React from 'react';
 
 import { Item } from 'semantic-ui-react'
 
-import logo from '../../assets/generated logo.svg.png'
-import ecommerce from '../../assets/ecommerce.png'
-import readme from '../../assets/readmegenerator.png'
+import logo from '../assets/generated logo.svg.png';
+import ecommerce from '../assets/ecommerce.png';
+import readme from '../assets/readmegenerator.png';
 
-import '../../styles/Portfolio.css'
+import '../styles/Portfolio.css';
 
 function Portfolio() {
   return (

@@ -1,14 +1,11 @@
-import React from 'react';
-
-import '../styles/Home.css';
+import React from 'react'
 
 import landingImage from '../assets/casestudy.JPG';
 
 
-
-function Home() {
+export default function Home() {
     return (
-        <div className="home">  
+        <div className="home">
 
             <h1 className="greeting">
                 Hello!
@@ -24,13 +21,7 @@ function Home() {
 
 
             <img className='myImage' src={landingImage} alt="My Image" />
-
-            </div>
-
-
-
-            
+        </div>
     );
 }
 
-export default Home;

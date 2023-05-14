@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { Button, Form, TextArea } from 'semantic-ui-react'
 
-import '../../styles/Contact.css';
+import '../styles/Contact.css';
 
 function Contact() {
 
