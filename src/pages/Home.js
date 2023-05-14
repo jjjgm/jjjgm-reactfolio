@@ -20,7 +20,7 @@ export default function Home() {
             </h3>
 
 
-            <img className='myImage' src={landingImage} alt="My Image" />
+            <img className='myImage' src={landingImage} alt="landing" />
         </div>
     );
 }
