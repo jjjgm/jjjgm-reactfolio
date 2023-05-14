@@ -155,6 +155,7 @@ dist
 .env.test.local
 .env.production.local
 .assets
+server.js
 
 npm-debug.log*
 yarn-debug.log*

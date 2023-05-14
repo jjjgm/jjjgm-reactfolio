@@ -1,0 +1,14 @@
+.resblurb {
+    justify-content: center;
+    display: flex;
+}
+
+.resume{
+    text-align: center;
+}
+
+.download:hover {
+    color:#006494;
+    font-size: 18px;
+
+}
