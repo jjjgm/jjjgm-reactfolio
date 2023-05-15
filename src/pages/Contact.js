@@ -29,6 +29,7 @@ function Contact() {
     } else {
       // NEEDS SERVER SIDE TO SEND FORM TO AN EMAIL OR STORE IN DB
       alert(`Thank you for reahing out ${name}!`);
+      window.location.href = `mailto:businessjgm@icloud.com?subject=${'contact from '+ name }&body=${message}`
       setName('');
       setEmail('');
       setMessage('');
