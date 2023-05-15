@@ -1,7 +1,6 @@
 {
   "name": "jjjgm-reactfolio",
   "version": "1.0.0",
-  "homepage": "https://jjgm.github.io/jjjgm-reactfolio/",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -20,9 +19,7 @@
     "node": "18.2.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
+    "start": "react-scripts start && node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
