@@ -1,8 +1,8 @@
 import React from 'react';
 
-import  Landing  from './components/Landing'
+import Landing from './components/Landing'
 
-import Home from './pages/Home'
+import Home from './pages/Home';
 
 import 'semantic-ui-css/semantic.min.css'
 
